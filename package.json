@@ -1,0 +1,27 @@
+{
+  "name": "saudia",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon run app.js",
+    "vercel-build": "echo hello"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.9",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "jade": "~1.11.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.0.1",
+    "qrcode": "^1.5.3"
+  }
+}
